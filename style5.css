@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    left: 600px;
+    top: 140px;
+}
+
+main div:nth-of-type(1){
+    width: 350px;
+    height: 90px;
+    background: linear-gradient(to right, orangered , black);  
+    color: white;  
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 20px;
+    transform: perspective(320px) rotatey(30deg);
+    transition: 1s;
+}
+
+main div:nth-of-type(2){
+    width: 350px;
+    height: 90px;
+    background: linear-gradient(to right, black , greenyellow );  
+    color: black;  
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left:50px ;
+    transform: perspective(320px) rotatey(-30deg);
+    transition: 1s;
+}
+
+main div:nth-of-type(3){
+    width: 350px;
+    height: 90px;
+    background: linear-gradient(to right, orangered , black);  
+    color: white;  
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transform: perspective(320px) rotatey(30deg);
+    transition: 1s;
+}
+
+main div:nth-of-type(4){
+    width: 350px;
+    height: 90px;
+    background: linear-gradient(to right, black , greenyellow );  
+    color: black;  
+    font-family: sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    padding-left: 170px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left:30px ;
+    transform: perspective(320px) rotatey(-30deg);
+    transition: 1s;
+}
+
+main div:nth-of-type(1):hover{
+    transform: perspective(250px) rotatey(30deg)
+}
+main div:nth-of-type(2):hover{
+    transform: perspective(250px) rotatey(-30deg)
+}
+main div:nth-of-type(3):hover{
+    transform: perspective(250px) rotatey(30deg)
+}
+main div:nth-of-type(4):hover{
+    transform: perspective(250px) rotatey(-30deg)
+}

@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+main span:nth-of-type(1){
+    color: white;
+    font-size: 30px;
+    animation-name: d;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: ease;
+}
+@keyframes d {
+    0%{
+        color: black;
+        margin-top: -20px;
+    }
+
+    100%{
+        color: white;
+    }
+}
+
+main span:nth-of-type(2){
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    animation-name: e;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 0.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes e {
+    0%{
+        color: black;
+        margin-top: -20px;
+    }
+
+    100%{
+        color: white;
+    }
+}
+
+main span:nth-of-type(3){
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    animation-name: s;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+}
+
+@keyframes s {
+    0%{
+        color: black;
+        margin-top: -20px;
+    }
+
+    100%{
+        color: white;
+    }
+}
+
+main span:nth-of-type(4){
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    animation-name: i;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 1.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes i {
+    0%{
+        color: black;
+        margin-top: -20px;
+    }
+
+    100%{
+        color: white;
+    }
+}
+
+main span:nth-of-type(5){
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    animation-name: g;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+}
+
+@keyframes g {
+    0%{
+        color: black;
+        margin-top: -20px;
+    }
+
+    100%{
+        color: white;
+    }
+}
+
+main span:nth-of-type(6){
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    animation-name: n;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-play-state: running;
+    animation-delay: 2.5s;
+    animation-timing-function: ease;
+}
+
+@keyframes n {
+    0%{
+        color: black;
+        margin-top: -20px;
+    }
+
+    100%{
+        color: white;
+    }
+}
